@@ -9,7 +9,6 @@ text = f"My name is {first_name}, {full_name}."
 
 start_first = text.index(first_name)
 end_first = start_first + len(first_name)
-
 start_full = text.index(full_name)
 end_full = start_full + len(full_name)
 
@@ -25,5 +24,4 @@ output = engine.anonymize(
     operators={"PERSON": OperatorConfig("replace", {"new_value": github_username})},
 )
 
-print("Input text:     ", text)
-print("Anonymized text:", output.text)
+print(output.text)
