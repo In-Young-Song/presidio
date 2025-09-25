@@ -1,0 +1,12 @@
+new check
+origin	git@github.com:In-Young-Song/presidio.git (fetch)
+origin	git@github.com:In-Young-Song/presidio.git (push)
+0
+Input text:      My name is In Young, In Young Song.
+Anonymized text: My name is In-Young-Song, In-Young-Song.
+new check
+origin	git@github.com:In-Young-Song/presidio.git (fetch)
+origin	git@github.com:In-Young-Song/presidio.git (push)
+0
+Input text:      My name is In Young, In Young Song.
+Anonymized text: My name is In-Young-Song, In-Young-Song.
